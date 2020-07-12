@@ -9,7 +9,6 @@ The data has been taken from Keras MNIST dataset. Explanation:
 2. Loading the data and spliting it into Train and Test Data.
 
 3. Analysing the Data
-
 ![EDA](https://github.com/prabhdeepsingh3499/MNIST_Digit_Predictor/blob/master/images/EDA.png?raw=True)
 4. Normalizing the Data
 
