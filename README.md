@@ -1,12 +1,12 @@
 # MNIST_Digit_Predictor
-The goal is to build a Neural Network which is able to predict the numbers in range of 1-9 using Python.
-This is done using the following libraries- keras ( tensorflow in backend ). matplotlib ( for plotting and analysing the data ). numpy ( for mathematical calculations and normalising data ). warnings (To ignore warnings and make code readable ).
+The goal is to build a Neural Network which is able to predict the numbers in the range of 0-9 using Python.
+This is done using the following libraries-Keras (TensorFlow in the backend ). matplotlib ( for plotting and analysing the data ).NumPy ( for mathematical calculations and normalising data ). warnings (To ignore warnings and make code readable ).
 
 The data has been taken from Keras MNIST dataset. Explanation:
 
 1. Loading the Libraries.
 
-2. Loading the data and spliting it into Train and Test Data.
+2. Loading the data and splitting it into Train and Test Data.
 
 3. Analysing the Data
 ![EDA](https://github.com/prabhdeepsingh3499/MNIST_Digit_Predictor/blob/master/images/EDA.png?raw=True)
@@ -24,6 +24,6 @@ The data has been taken from Keras MNIST dataset. Explanation:
 
 ![Summary](https://github.com/prabhdeepsingh3499/MNIST_Digit_Predictor/blob/master/images/Model.png?raw=True)
 
-The activation function used in last layer is Softmax, as it gives the probability of the prediction, the label that gives maximum probability is selected as the label.
+The activation function used in the last layer is Softmax, as it gives the probability of the prediction, the label that gives maximum probability is selected as the label.
 
-In order to get better accuracy you can tweak the neural network and accordingly change the layers.
+In order to get better accuracy, you can tweak the neural network and accordingly change the layers.
